@@ -27,3 +27,6 @@
 
 ##### TDD de Servicios (\src\domain\use-cases\PokemonService.test.ts)
 ##### TDD de Componentes (\src\application\controllers\index.test.js)
+
+
+![alt text](https://raw.githubusercontent.com/JosePatricio/reactAppHexagonal/main/screenshot.pngg)
