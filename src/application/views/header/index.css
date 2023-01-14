@@ -1,0 +1,49 @@
+button { 
+  background-color: #5F51E5 !important; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.containerHeader {
+  width:800px;
+  text-align:center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.input {
+  padding: 10px;
+  border:1px solid '#9DADBA';
+}
+
+
+.wrapper {
+  position:relative;
+}
+
+.icon {
+  height: 1.2rem;
+  width: 1.5rem;
+  padding: 4px;
+  position: absolute;
+  box-sizing:border-box;
+  top:40%;
+  left:5px;
+  transform: translateY(-50%);
+}
+
+.inputSearch {
+  height: 50px;
+  box-sizing:border-box;
+  padding-left: 1.5rem;
+  
+  
+}

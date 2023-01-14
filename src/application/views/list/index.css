@@ -1,0 +1,25 @@
+.container-list{
+   margin-top: 20px;
+   
+}
+
+table td
+    {
+       border-width: 1px;
+       border-color: #9DADBA;
+       border-collapse: True;
+       border-style: Solid;
+       text-align: center;
+       background-color: white;
+    }
+
+    table th
+    {
+       border-width: 1px;
+       border-color: #9DADBA;
+       border-collapse: True;
+       border-style: Solid;
+       text-align: center;
+       font-weight: bold;
+       background-color: white;
+    }

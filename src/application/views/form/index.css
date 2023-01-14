@@ -1,0 +1,43 @@
+.button { 
+  background-color: #5F51E5 !important; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-inactive { 
+  background-color: #D0CDFB !important; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#formContainer {
+  width:800px;
+  text-align:center;
+  background-color: white;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  border:1px solid #9DADBA
+}
+
+.input {
+  padding: 10px;
+}
+.inputRequired {
+  padding: 10px;
+  border-color: red;
+}
+

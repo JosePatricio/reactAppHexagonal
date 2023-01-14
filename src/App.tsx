@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from "react-redux"
+import { applyMiddleware, createStore } from "redux"
+import { createLogger } from "redux-logger"
+import thunk from "redux-thunk"
+
+import {Pokemon} from "./application/controllers/"
+import { reducer } from "./application/reducers"
+
+const middleware = [thunk]
+if (process.env.NODE_ENV !== 'production') {
+    // @ts-ignore
+    middleware.push(createLogger())
+}
+
+const store = createStore(reducer, applyMiddleware(...middleware))
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <Pokemon />
+    </Provider>
   );
 }
 

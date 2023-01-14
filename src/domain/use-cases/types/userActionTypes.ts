@@ -1,0 +1,5 @@
+export  enum UserActionTypes {
+    GET_POKEMON_REQUEST    = "GET_POKEMON_REQUEST",
+    GET_POKEMON_SUCCESS    = "GET_POKEMON_SUCCESS",
+    GET_POKEMON_FAIL       = "GET_POKEMON_FAIL",
+}
