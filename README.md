@@ -29,4 +29,4 @@
 ##### TDD de Componentes (\src\application\controllers\index.test.js)
 
 
-![alt text](https://raw.githubusercontent.com/JosePatricio/reactAppHexagonal/main/screenshot.pngg)
+![alt text](https://raw.githubusercontent.com/JosePatricio/reactAppHexagonal/main/screenshot.png)
