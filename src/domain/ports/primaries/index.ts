@@ -1,1 +1,1 @@
-export * from "./iGetPokemons"
+export * from "./iPokemonService"
